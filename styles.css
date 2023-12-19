@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* Add the following styles to your existing CSS file */
+
+#holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Additional styling for the items (optional) */
+#holder div {
+  width: calc(33.33% - 10px); /* Adjust the width as needed with margin */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
